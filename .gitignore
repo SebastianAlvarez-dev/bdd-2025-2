@@ -9,8 +9,9 @@ docker-compose.yml
 # Logs y reportes de calificación
 *.log
 logs/
-grade_report_*.txt
+calificacion_*.txt
 resultados/
+*.json
 
 # Archivos temporales
 *.tmp
@@ -32,21 +33,3 @@ Thumbs.db
 # Datos de volúmenes Docker (no versionar)
 *-data/
 volumes/
-
-# Archivos de backup
-*.bak
-*.backup
-
-# ============================================
-# Archivos de SOLUCIÓN (solo para profesor)
-# NO se versionan en el repo principal
-# ============================================
-docker-compose.EXAMPLE.yml
-SOLUTION_REFERENCE.md
-TEACHER_GUIDE.md
-RESUMEN_PROFESOR.md
-LEEME_PRIMERO.txt
-COMO_USAR_ESTE_PROYECTO.md
-ESTRUCTURA_PROYECTO.txt
-grade.sh
-calificar_todos.sh
